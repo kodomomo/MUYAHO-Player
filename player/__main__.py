@@ -1,5 +1,5 @@
-from player.app.music_player import MusicPlayer
+from player.app import Player
 
 if __name__ == '__main__':
-    player = MusicPlayer()
-    player.play("https://www.youtube.com/watch?v=mfqsEpjEtrw")
+    app = Player()
+    app.run()
