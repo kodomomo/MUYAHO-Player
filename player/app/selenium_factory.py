@@ -2,6 +2,6 @@ from selenium import webdriver
 
 
 def create_driver():
-    driver = webdriver.Chrome(executable_path='C:/Users/user/PycharmProjects/MUYAHO-Player/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='chromedriver.exe')
     return driver
 
