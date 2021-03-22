@@ -4,7 +4,7 @@ import boto3
 
 class SqsObserver:
     def __init__(self, music_player):
-        self.queue = ["https://www.youtube.com/watch?v=Rc0WOYHReSA"]
+        self.queue = ["https://www.youtube.com/watch?v=Rc0WOYHReSA", "kda pop/stars"]
         self.queue_url = os.getenv("SQS_ADDRESS")
         # self.client = boto3.client(
         #     "sqs",
